@@ -1,0 +1,42 @@
+{
+	"name": "linguin-api",
+	"version": "0.1.0",
+	"description": "Official JavaScript client for the Linguin API: multilingual dictionary lookups, reverse dictionary, translation and UI localization.",
+	"type": "module",
+	"main": "src/index.js",
+	"types": "src/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"default": "./src/index.js"
+		}
+	},
+	"files": [
+		"src"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": [
+		"dictionary",
+		"translation",
+		"localization",
+		"i18n",
+		"multilingual",
+		"definitions",
+		"reverse-dictionary",
+		"language",
+		"api",
+		"linguin"
+	],
+	"author": "Linguin <i@surfy.one>",
+	"license": "MIT",
+	"homepage": "https://linguin.xyz/@api",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/theastroscout/linguin-api-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/theastroscout/linguin-api-js/issues"
+	}
+}
