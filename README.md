@@ -5,7 +5,7 @@ Official JavaScript client for the [Linguin API](https://linguin.xyz/api): a mul
 No dependencies, TypeScript types included, Node 18+.
 
 - Full API reference: [linguin.xyz/api/docs](https://linguin.xyz/api/docs)
-- Get an API key: [linguin.xyz/api/access](https://linguin.xyz/api/access)
+- Get an API key: [linguin.xyz/account/api](https://linguin.xyz/account/api)
 - Python client: [linguin-api-py](https://github.com/theastroscout/linguin-api-py)
 
 ## Install

@@ -13,7 +13,7 @@ Full reference: https://linguin.xyz/api/docs
 
 */
 
-const VERSION     = '0.1.0';
+const VERSION     = '0.1.1';
 const API_URL     = 'https://api.linguin.xyz';
 const API_VERSION = '2026-06-01';
 
