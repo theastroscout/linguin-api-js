@@ -1,11 +1,11 @@
 # Linguin API for JavaScript
 
-Official JavaScript client for the [Linguin API](https://linguin.xyz/@api): a multilingual dictionary and translation API. Look up any word or phrase in any language, run a reverse dictionary search, translate text and localize UI strings.
+Official JavaScript client for the [Linguin API](https://linguin.xyz/api): a multilingual dictionary and translation API. Look up any word or phrase in any language, run a reverse dictionary search, translate text and localize UI strings.
 
 No dependencies, TypeScript types included, Node 18+.
 
-- Full API reference: [linguin.xyz/@api/docs](https://linguin.xyz/@api/docs)
-- Get an API key: [linguin.xyz/@api/access](https://linguin.xyz/@api/access)
+- Full API reference: [linguin.xyz/api/docs](https://linguin.xyz/api/docs)
+- Get an API key: [linguin.xyz/api/access](https://linguin.xyz/api/access)
 - Python client: [linguin-api-py](https://github.com/theastroscout/linguin-api-py)
 
 ## Install
@@ -97,7 +97,7 @@ await linguin.revoke({ prefix: fresh.prefix }); // revoke one by full value or p
 
 ## Errors
 
-A non-2xx response throws `LinguinError` with a stable `code` you can switch on, the HTTP `status` and a human `message`. Codes are listed in the [API reference](https://linguin.xyz/@api/docs).
+A non-2xx response throws `LinguinError` with a stable `code` you can switch on, the HTTP `status` and a human `message`. Codes are listed in the [API reference](https://linguin.xyz/api/docs).
 
 ```js
 import Linguin, { LinguinError } from 'linguin-api';

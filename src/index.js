@@ -3,7 +3,7 @@
 Official JavaScript client for the Linguin API (https://api.linguin.xyz).
 
 A thin wrapper: one method per endpoint, JSON in and out, no dependencies.
-Full reference: https://linguin.xyz/@api/docs
+Full reference: https://linguin.xyz/api/docs
 
 	import Linguin from 'linguin-api';
 
